@@ -35,3 +35,26 @@ console.log(typeof myObj);
 console.log(typeof myFunction);
 console.log(typeof outsideTemp);
 console.log(typeof userEmail);
+
+
+// ****************** M e m o r y *****************
+ 
+// Stack (Primitive), Heap (Non Primitive)
+
+let myName = "kingo"
+let anotherName = myName
+anotherName = "bingo"
+
+console.log(myName);
+console.log(anotherName);
+
+let user1 = {
+    name: "kingo",
+    age: 23
+}
+
+let user2 = user1
+user2.age = 25
+
+console.log(user1.age);
+console.log(user2.age);
